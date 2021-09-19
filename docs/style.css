@@ -5,47 +5,202 @@
 }
 
 
+@media only screen and (max-width: 600px){
+
+    #logo{
+        width: 6rem;
+        height: 3.8rem;
+        padding: 0;
+    }
+
+    .div2 { 
+    
+        background-color: black;
+        background-image: url(https://cdn.discordapp.com/attachments/768295007856754708/888143443476492380/Fondo.png);
+        padding: 10rem 0 6rem 0;
+        margin: 0;
+    }
+    
+    .txt{
+        
+        display: block;
+        margin: 5rem 5rem 2rem 5rem;
+        color: #ffffff;
+        text-align: center;
+        text-decoration:none;
+    }
+
+    .txt h1{
+        font-size: 2rem;
+    }
+
+    .btn1{
+        font-size: 1rem;
+        display: block;
+        margin: 0 7rem;
+        padding: 1.5rem 4rem;
+        border: 5px solid #585858;
+        background-color: #181818;
+        color: #ffffff;
+        text-align: center;
+        text-decoration:none;
+        border-radius: 3rem;
+    }
+
+    #logotw{
+        max-height: 1rem;
+        padding: auto;
+    }
+
+    #logods{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .redes{
+        position: absolute;
+        border: 5px solid white;
+        background-color: white;
+        margin-left: 50rem;
+        margin-bottom: 40rem;
+        max-height: 10rem;
+        max-width: 5rem;
+    }
+
+    .div3 { 
+        padding: 1rem 0 3rem 0;
+        background-color: #ff8800;
+    }
+
+    .road{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        
+    }
+
+    #cards{
+        display: flex;
+        flex-direction: initial;
+        flex-wrap: wrap;
+        margin: 0 2rem 1rem 2rem;
+        
+    
+    }
+
+    .card1{
+        border-radius: 1.5rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        background-color: rgb(255, 255, 255);
+        max-width: 20rem;
+        
+    }
+
+    .road h1{
+        color: white;
+        padding: 1.5rem;
+    }
+
+    .road h2{
+        font-size: 1rem;
+    }
+
+    .road p{
+        padding: auto;
+        margin: auto;
+    }
+
+    
+    .div4 { 
+        padding: 2rem 0 2rem 0;
+        background-color: #001c99;
+    }
+
+    .faq h1{
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        margin: 2rem;
+
+    }
+
+    .faq h2{
+        font-size: 1rem;
+    }
+    
+    .faq p{
+        padding: auto;
+        margin: auto;
+    }
+
+    .cards2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 1.5rem 1rem 1.5rem;
+        
+    
+    }
+
+    .card2{
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 0.1rem 0 0.1rem 0;
+        background-color: rgb(255, 255, 255);
+        max-width: 90rem;
+    }
+
+    .div5 { 
+        
+        background-color: #c300ff;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
 .nav2{
     position: inherit;
 }
 
 .parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    display: block;
   
 }
 
- 
 #logo{
     width: 6rem;
     height: 3.8rem;
     padding: 0;
 }
 
-
-
 .div2 { 
     grid-area: 1 / 1 / 4 / 4; 
-    background-color: black;
-    background-image: url(https://cdn.discordapp.com/attachments/768295007856754708/887827414703566878/fondo.png);
-    
-    margin: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/768295007856754708/888143443476492380/Fondo.png);
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 7rem 0 3rem 0;
 }
  
 .txt{
-    
+    text-shadow: black;
     display: block;
-    margin: 10rem 25rem 2rem 25rem;
+    margin: 10rem 25rem 0rem 25rem;
     color: #ffffff;
     text-align: center;
     text-decoration:none;
+    font-family: 'Anton', sans-serif;
+    
 }
 
 .txt h1{
+    font-size: 4rem;
+    text-shadow:3px 3px black;   
+}
+
+.txt h2{
     font-size: 3rem;
+    text-shadow:3px 3px black;   
 }
 
 .btn1{
@@ -65,30 +220,21 @@
     max-height: 1rem;
     padding: auto;
 }
+
 #logods{
     width: 1rem;
     height: 1rem;
 }
 
-.redes{
-    position: absolute;
-    border: 5px solid white;
-    background-color: white;
-    margin-left: 50rem;
-    margin-bottom: 40rem;
-    max-height: 10rem;
-    max-width: 5rem;
-}
-
 .div3 { 
-    grid-area: 4 / 1 / 6 / 4; 
-    background-color: #ff8800;
- }
+    padding: 4rem 0 7rem 0;
+    background-color: #2e0016;
+}
 
 .road{
     color: rgb(0, 0, 0);
     text-align: center;
-    
+
 }
 
 #cards{
@@ -101,63 +247,109 @@
 }
 
 .card1{
+    
     border-radius: 2rem;
     padding: 1rem;
     margin: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #680032;
     max-width: 20rem;
     
 }
 
+
+
 .road h1{
-    color: white;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
     padding: 2rem;
+    margin: 0 0 2rem 0;
+    font-family: 'Anton', sans-serif;
 }
+
 .road h2{
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
 }
 
 .road p{
+    color: rgb(255, 255, 255);
     padding: auto;
     margin: auto;
 }
 
- 
 .div4 { 
-    grid-area: 6 / 1 / 10 / 4; 
-    background-color: #008cff;
+    padding: 2rem 0 3rem 0; 
+    background-color: #32005c;
 }
 
 .faq h1{
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: white;
     text-align: center;
     margin: 2rem;
-
+    font-family: 'Anton', sans-serif;
 }
 .faq h2{
     font-size: 1.5srem;
+    color: white;
 }
   
+.faq p{
+    font-size: 1.3rem;
+    color: white;
+}
+
 .cards2{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 3rem 2rem 3rem;
-    
    
 }
 .card2{
     border-radius: 1rem;
     padding: 1rem;
     margin: 0.1rem 0 0.1rem 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #5600b9;
     max-width: 90rem;
 }
 
 
-.div5 { 
-    grid-area: 10 / 1 / 11 / 4; 
-    background-color: #c300ff;
+ .div5 { 
+    background-color: #000000;
+    text-align: center;
  }
+.footer {
+    font-size: 2rem;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none; 
+    margin-top:1rem;
+}
 
+.footer ul{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: 1rem;
+    
+}
+
+.redes{
+    display: inline-block;
+    
+    
+}
+
+.redes a{
+    color: white;
+}
+
+.redes a:hover{
+    color: grey
+}
+
+}
